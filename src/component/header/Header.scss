@@ -1,9 +1,11 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 5px 120px;
+    padding: 3px 120px;
     align-items: center;
-    height: 85px;
+    height: 75px;
+    border-bottom: 1.5px solid rgb(130 108 108);
+    
     .header-left{
         img{
             width: 50%;
@@ -19,23 +21,20 @@
 //Mobile: width < 740px
 @media only screen and (max-width: 46.1875em) {
     .header {
-            display: flex;
-            justify-content: space-between;
             padding: 5px 20px;
-            align-items: center;
             height: 50px;
     
             .header-left {
                 img {
-            padding-top: 5px;
-                    width: 50%;
+                    padding-top: 5px;
+                    width: 35%;
                 }
             }
     
             .header-right {
                 img {
                     float: right;
-                    width: 50%;
+                    width: 40%;
                 }
             }
         }

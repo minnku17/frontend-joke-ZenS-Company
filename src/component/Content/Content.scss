@@ -1,0 +1,86 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+    gap: 10px;
+
+    .text{
+        width: 770px;
+        padding: 0 5px;
+        color: #646464;
+    }
+    span{
+        margin: 40px 0;
+        width: 40%;
+        border-top: 0.5px solid rgb(218, 208, 208);
+    }
+    .btn{
+        display: flex;
+        gap: 10px;
+        
+
+        .btn-left, .btn-right{
+            cursor: pointer;
+            padding: 10px 50px;
+            color: white;
+            border-radius: 2px;
+            box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+        .btn-left{
+            background-color: #2c7edb;
+            &:hover {
+                font-weight: bold;
+                box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.75);
+            }
+        }
+        .btn-right{
+            background-color: #29b363;
+            &:hover {
+                    font-weight: bold;
+                    box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.75);
+                }
+        }
+    }
+}
+@media only screen and (max-width: 46.1875em) {
+    .content{
+        .text{
+            width: 81%;
+        }
+            span {
+                margin: 10px 0;
+                width: 90%;
+                border-top: 0.5px solid rgb(218, 208, 208);
+            }
+        .btn{
+            .btn-left,
+                .btn-right {
+                    cursor: pointer;
+                    padding: 10px 30px;
+                    color: white;
+                    border-radius: 2px;
+                    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                }
+        }
+    }
+}
+//Tablet: width >= 740px abd width <1024px
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .content {
+            .text {
+                width: 81%;
+            }
+    
+            .btn {}
+        }
+}
