@@ -1,0 +1,26 @@
+.subject{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #29b363;
+    gap: 10px;
+    p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 46.1875em) {
+    .subject {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 50px 5px;
+            align-items: center;
+            text-align: center;
+            color: white;
+            background-color: #29b363;
+        }
+}
