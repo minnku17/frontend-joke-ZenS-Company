@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.5px solid rgb(218, 208, 208);
+    margin-top: 15px;
+    padding-top: 20px;
+
+    .footer__text{
+        text-align: center;
+        width: 770px;
+        font-size: 12px;
+        color: #a4a4a4;
+    }
+
+    p{
+        font-size: 13px;
+        color: #6b6b6b;
+    }
+}
+@media only screen and (max-width: 46.1875em) {
+    .footer {
+            .footer__text {
+                width: 81%;
+            }
+    
+    
+        }
+}
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .footer {
+        .footer__text {
+            width: 81%;
+        }
+
+        
+    }
+}

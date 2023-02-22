@@ -1,4 +1,5 @@
 import Content from "./component/Content/Content";
+import Footer from "./component/Footer/Footer";
 import Header from "./component/header/Header";
 import Subject from "./component/Subject/Subject";
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Subject />
       <Content/>
+      <Footer />
     </>
   );
 }
