@@ -71,7 +71,7 @@ function Content() {
             })
             setIndexContent(indexContent + 1)
             
-            const res = await axios.post('http://localhost:6969/api/joke-zens-company', { idJoke: contentShow.id, content: contentShow.content, action: action});
+            const res = await axios.post('https://backend-nodejs-zens-company-joke.onrender.com/api/joke-zens-company', { idJoke: contentShow.id, content: contentShow.content, action: action});
             console.log("check res", res)
         }
     }
