@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Xin chào chị Xuân Linh và mọi người.
+  Em tên là: Trương Thanh Hòa,</br>
+  Email: truongg.thanhhoaa@gmail.com</br>
+  Phone: 0794755206,</br>
+  Apply position: NodeJs Developer Intern</br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
+## Thông tin về bài test frontend 
+  Repositories frontend: <a href="https://github.com/minnku17/frontend-joke-ZenS-Company" target="_blank">frontend-joke-ZenS-Company Public</a> </br>
+  Deploy to vercel: <a href="https://frontend-joke-zen-s-company.vercel.app/" target="_blank">Joke ZenS Company</a></br>
+  Repositories backend: <a href="https://github.com/minnku17/backend-nodejs-joke-zens" target="_blank">backend-nodejs-joke-zens</a> </br>
+  Deploy to render: <a href="https://backend-nodejs-zens-company-joke.onrender.com" target="_blank">Backend Joke ZenS Company</a></br>
+  Remote xem database deploy to aws ec2:
+  ```
+    DB_HOST=54.179.183.59
+    DB_DATABASE_NAME=jokezens
+    DB_USERNAME=user
+    DB_PASSWORD=12345
+    DB_PORT=3306
+    DB_DIALECT=mysql
+  ```
 In the project directory, you can run:
 
-### `npm start`
+### `Giao diện frontend`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ <img src="images/Layout test.jpg" alt="Layout Test" />
+ 
+### `Save cookie track user`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ <img src="images/save cookie.jpg" alt="Layout Test" />
+ 
+ ### `Call api save vote`
+ ```
+  Đôi lúc sẽ gặp trường hợp call API không được, do em deploy lên render không hỗ trợ chạy nền, đôi lúc em treo sẽ bị stop server ạ.
+  Nếu trường hợp lỗi không call api xảy ra em có video sẵn video demo Link bên dưới ạ.
+ ```
+  <a href="https://drive.google.com/file/d/1rqNfY-1apH1rhnR8hvA1ns9kr3Eew7cM/view?usp=sharing">Video demo website</a></br>
+ <img src="images/callApiSaveVote.jpg" alt="Layout Test" />
 
-### `npm test`
+### `Database save vote`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ <img src="images/database.jpg" alt="Layout Test" />
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
