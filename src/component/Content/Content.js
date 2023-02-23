@@ -1,5 +1,6 @@
 import './Content.scss'
 import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 const contents = [
     {
@@ -41,7 +42,6 @@ function Content() {
             })
         } else {
             const indexCookie = contents.findIndex((item) => item.id === contentCookie[contentCookie.length - 1].id)
-            console.log("check id", indexCookie)
             setContentShow({
                 id: contents[indexCookie].id >= 4 ? 5 : contents[indexCookie].id,
                 content: contents[indexCookie].id >= 4 ? "That's all the jokes for today! Come back another day!" : contents[indexCookie].content
@@ -51,7 +51,7 @@ function Content() {
             setIndexContent(contents[indexCookie].id >= 4 ? indexCookie + 2 : indexCookie + 1)
         }
     },[])
-    const handleReaction = (action) => {
+    const handleReaction = async (action) => {
         if (indexContent >= 4){
              setContentShow({
                 id: 5,
@@ -70,9 +70,11 @@ function Content() {
                 content: indexContent === 3 ? contents[indexContent].content : contents[indexContent + 1].content
             })
             setIndexContent(indexContent + 1)
+            
+            const res = await axios.post('http://localhost:6969/api/joke-zens-company', { idJoke: contentShow.id, content: contentShow.content, action: action});
+            console.log("check res", res)
         }
     }
-    console.log("cjeck data cookie", indexContent)
     return ( 
         <>
             <div className="content">
