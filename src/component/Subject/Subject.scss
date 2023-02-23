@@ -8,8 +8,13 @@
     color: white;
     background-color: #29b363;
     gap: 10px;
+    h1{
+        font-family: 'Mulish', sans-serif;
+    }
     p{
-        font-size: 12px;
+        font-size: 11px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 600;
     }
 }
 @media only screen and (max-width: 46.1875em) {

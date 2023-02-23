@@ -1,22 +1,28 @@
-.header{
+header{
     display: flex;
-    justify-content: space-between;
-    padding: 3px 120px;
-    align-items: center;
-    height: 75px;
+    justify-content: center;
     border-bottom: 1.5px solid rgb(130 108 108);
+    .header {
+            display: flex;
+            justify-content: space-between;
+            width: 790px;
+            align-items: center;
+            height: 75px;
+            
     
-    .header-left{
-        img{
-            width: 50%;
+            .header-left {
+                img {
+                    width: 50%;
+                }
+            }
+    
+            .header-right {
+                img {
+                    float: right;
+                    width: 50%;
+                }
+            }
         }
-    }
-    .header-right {
-        img{
-            float: right;
-            width: 50%;
-        }
-    }
 }
 //Mobile: width < 740px
 @media only screen and (max-width: 46.1875em) {
