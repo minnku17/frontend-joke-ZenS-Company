@@ -18,11 +18,11 @@
     DB_PORT=3306
     DB_DIALECT=mysql
   ```
-In the project directory, you can run:
-
+  Website em đã reponsive trên thiết bị điện thoại, tablet.
 ### `Giao diện frontend`
 
- <img src="images/Layout test.jpg" alt="Layout Test" />
+ <img src="images/exam-test-website-joke-zens-company.png" alt="Layout Test" />
+ <img src="images/fix-layout-2.jpg" alt="Layout Test" />
  
 ### `Save cookie track user`
 
